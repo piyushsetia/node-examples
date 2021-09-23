@@ -12,6 +12,8 @@ function solveRect(l,b) {
             console.log("The perimeter of reactangle of dimenssions l = " + l + " and b = " + b + " is" + rectangle.perimeter());
         }
     })
+    console.log("This statement after the call to rect()");
+}
 
 solveRect(1,2);
 solveRect(1,0);
